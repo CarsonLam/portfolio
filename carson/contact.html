@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-  <!-- Page Basics
+  <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <title>Sophie Gardner</title>
   <meta charset="utf-8">
@@ -10,8 +10,7 @@
   <meta name="author" content="Sophie Gardner">
   <meta name="theme-color" content="#000000">
 
-  <!-- Global site tag (gtag.js) - Google Analytics
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118972038-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -19,6 +18,7 @@
     gtag('js', new Date());
     gtag('config', 'UA-118972038-1');
   </script>
+  <!-- End Google Analytics -->
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,17 +34,22 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-    <!-- Scripts
+    <!-- Javascript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="javascript/code.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="scripts/hoverStates.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
 </head>
+
+
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <body>
  <!-- On load fade in page -->
@@ -69,38 +74,30 @@ $(document).ready(function() {
     <div class="row" id="menu">
       <div class="onecolumn" style="margin-top: 10%; margin-bottom:25%;">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="transition, navbar-link" id="active" href="http://www.sophgdn.com/">Work</a></li>
-          <li class="navbar-item"><a class="transition, navbar-link" href="http://www.sophgdn.com/contact.html">Contact</a></li>
+          <li class="navbar-item"><a class="transition, navbar-link" href="http://www.sophgdn.com/">Work</a></li>
+          <li class="navbar-item"><a class="transition, navbar-link" id="active" href="http://www.sophgdn.com/contact.html">Contact</a></li>
           <li class="navbar-item"><a class="transition, navbar-link" href="https://medium.com/@sophg" target="_blank">Writing</a></li>
         </ul>
       </div>
     </div>
 
-<!-- Site heading -->
-  <div class="row">
-    <div class="onecolumn" style="margin-bottom:10%;">
-      <p id="font-bold">Sophie Gardner. Product designer, formerly at <a href="https://design.google/" class="heading-link" target="_blank">Google</a> and <a href="https://www.palantir.com/careers/teams/design" class="heading-link" target="_blank">Palantir</a></p>
-    </div>
-  </div>
-</section>
-
-
-<div class="row portfolio-content">
-  <div class="six columns">
-      <div class="portfolio-container" style="margin-left: 5px;">
-        <a class="image-wrapper work" href="projects/google-departure-board.html"> <img class="thumbnail" src="images/transit.png"> </a>
-        <a href="projects/google-departure-board.html" class="work"><h2 class="thumbnail-title"><span id="title">Departure Boards for Google Maps</span></h2></a>
-        <a href="projects/google-departure-board.html" class="work"><h3>2016 · Android</h3></a></a>
-      </div>
-    </div>
-    <div class="six columns">
-        <div class="portfolio-container" style="margin-left: 5px;">
-          <a class="image-wrapper work" href="projects/design-bot.html"> <img class="thumbnail" src="images/twitterBot.png"> </a>
-          <a href="projects/twitter-bot.html" class="work"><h2 class="thumbnail-title"><span id="title">@DesignAdviceBot Twitter Bot</span></h2></a>
-          <a href="projects/twitter-bot.html" class="work"><h3>2018 · Javascript</h3></a></a>
+    <!-- Site heading -->
+      <div class="row">
+        <div class="onecolumn" style="margin-bottom:10%;">
+          <p id="font-bold">Check out my <a href="documents/CV.pdf" class="heading-link" target="_blank">CV</a>, <a href="https://codepen.io/sophgdn/" class="heading-link" target="_blank">CodePen</a> and <a href="https://github.com/sophgdn" class="heading-link" target="_blank">Github</a>. Hit me up on <a href="https://twitter.com/sophgdn"
+            class="heading-link" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/sophg/" class="heading-link" target="_blank">LinkedIn</a> or <a class="heading-link" id="changeToEmail" href="mailto:sophgdn@gmail.com">email</a></p>
         </div>
       </div>
-</div>
+    </section>
+
+    <div class="row portfolio-content">
+      <div class="six columns">
+          <div class="portfolio-container">
+          </div>
+        </div>
+    </div>
+
+
 </div>
 </body>
 </html>
